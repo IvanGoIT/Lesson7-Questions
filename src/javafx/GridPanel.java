@@ -60,6 +60,8 @@ public class GridPanel extends Application{
         GridPane.setHalignment(saveButt, HPos.RIGHT);
         gridpane.add(saveButt, 1, 2);
 
+        // saveButt.setOnAction();
+        // saveButt.setOnMouseClicked();
         saveButt.setOnMouseClicked(event -> {
             int number = Integer.parseInt(fNameFld.getText());
             System.out.println(number);
